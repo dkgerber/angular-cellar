@@ -73,7 +73,7 @@ apache:
     vhosts:
         fRJgD56u5jHg:
             servername: cellar.dev
-            docroot: /apps/cellar
+            docroot: /apps/www/cellar
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -179,4 +179,3 @@ rabbitmq:
     install: 0
     settings:
         port: '5672'
-
